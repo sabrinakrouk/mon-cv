@@ -1,0 +1,83 @@
+
+div {
+	display: block;
+	margin: 0px auto;
+}
+#un {
+ background-image: url(background.jpg); 
+ background-repeat: no-repeat;
+position: relative;
+margin: 0px auto;
+padding: 0px;  
+width: 1300px;
+height: 542px; 
+max-height: none; 
+max-width: none;
+left: 0px; 
+top: 0px;
+}
+
+.de {
+  background-image: url("de.png") no-repeat;
+  position: absolute;
+  left: 0px;
+  top: 5px;
+  width: 1362px;
+  height: 537px;
+  z-index: 1;
+}
+.Ellipse_1 {
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.8;
+  position: absolute;
+  left: 446px;
+  top: 72px;
+  width: 407px;
+  height: 407px;
+  z-index: 2;
+}
+
+.Sabrina_KROUK_Creative_Since_1994 {
+  font-size: 60px;
+  font-family: "Poiret One";
+  color: rgb(255, 252, 252);
+  text-align: center;
+  text-shadow: 2.5px 4.33px 5px rgba(0, 0, 0, 0.294);
+  position: absolute;
+  left: 392.296px;
+  top: 150.281px;
+  z-index: 3;
+}
+
+#PROFILE {
+	position: relative;
+	background-color: black;
+	width: 1362px;
+
+}
+#WORK {
+	position: relative;
+	background-color: black;
+	width: 1362px;
+}
+#EDUCATION {
+	position: relative;
+	background-color: black;
+	width: 1362px;
+}
+#SKILLS {
+	position: relative;
+	background-color: black;
+	width: 1362px;
+}
+#PORTFOLIO {
+	position: relative;
+	background-color: black;
+	width: 1362px;
+}
+#contact {
+	position: relative;
+	background-color: black;
+	width: 1362px;
+}
