@@ -1,83 +1,198 @@
-
-div {
-	display: block;
-	margin: 0px auto;
-}
-#un {
- background-image: url(background.jpg); 
- background-repeat: no-repeat;
-position: relative;
-margin: 0px auto;
-padding: 0px;  
-width: 1300px;
-height: 542px; 
-max-height: none; 
-max-width: none;
-left: 0px; 
-top: 0px;
-}
-
-.de {
-  background-image: url("de.png") no-repeat;
-  position: absolute;
-  left: 0px;
-  top: 5px;
-  width: 1362px;
-  height: 537px;
-  z-index: 1;
-}
-.Ellipse_1 {
-  border-radius: 50%;
-  background-color: rgb(0, 0, 0);
-  opacity: 0.8;
-  position: absolute;
-  left: 446px;
-  top: 72px;
-  width: 407px;
-  height: 407px;
-  z-index: 2;
-}
-
-.Sabrina_KROUK_Creative_Since_1994 {
+#first{
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  width: 600;
+  height: 250px;
   font-size: 60px;
   font-family: "Poiret One";
   color: rgb(255, 252, 252);
   text-align: center;
   text-shadow: 2.5px 4.33px 5px rgba(0, 0, 0, 0.294);
-  position: absolute;
-  left: 392.296px;
-  top: 150.281px;
-  z-index: 3;
+  margin: 0px;
+  padding-top: 200px;
+  padding-right: : 2px;
+  padding-left: 385px;
+  padding-right: 415px;
+  padding-bottom: 360px;
+  border: 0px;
+
+}
+#nav 
+{
+	color: #ffffff;
+	z-index: 2;
+	background-color: black;
+   margin:0;
+   width: 100%;
+   height: 50px;
+   position: fixed;
+   align-content: center;
+   padding-right:200px;
+   padding-left:300px;
+   padding-bottom: 16px;
+   padding-top: 20px;
+   font-family: "Poiret One";
+   text-decoration: none;
+   
+}
+ 
+#nav li 
+{
+	z-index: 2;
+	list-style-type: none;
+	color: #ffffff;
+   display:inline;
+   padding:0;
+   margin:0;
+   width:100%;
+   border:1px solid #42432d;
+   border-width:0px 0;
+   text-decoration: none;
+}
+#nav a:link, #nav a:visited 
+{
+	z-index: 2;
+	color:#ffffff;
+   padding:20px 40px 30px 10px;
+   width:auto;  ;
+   border: none;
+   text-decoration: none;
+}
+#nav a:hover 
+{
+	padding:23px 40px 15px 10px;
+	z-index: 2;
+   color:#fff;
+   background:#f24935;
+   text-decoration: none;
+}
+ 
+ 
+#nav a:active 
+{
+	z-index: 2;
+   background:#e35a00;
+   color:#ffffff;
+   text-decoration: none;
 }
 
 #PROFILE {
+	z-index: 1;
+	 font-family: "Poiret One";
+	margin-top: 0px;
+	padding-top: 30px;
+	padding-left: 50px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	height: 570px;
 	position: relative;
+	text-align: center;
+	background-size: 100%;
 	background-color: black;
-	width: 1362px;
+	background-image: url(profilebackground.jpg);
+	background-repeat: no-repeat;
+	color: white;
+
 
 }
 #WORK {
+	 font-family: "Poiret One";
+	margin:0px;
+	padding-top: 50px;
+	padding : auto;
+	height: 570px;
 	position: relative;
-	background-color: black;
-	width: 1362px;
+	background-size: 100%;
+	background-color: #262526;
+	color: white;
 }
 #EDUCATION {
+	 font-family: "Poiret One";
+	margin:0px;
+	padding-top: 73px;
+	padding-bottom: 20px;
 	position: relative;
+	background-size: 100%;
+	height: 514px;
 	background-color: black;
-	width: 1362px;
+	color: white;
 }
 #SKILLS {
+	 font-family: "Poiret One";
+	margin:0px;
+	padding-top: 30px;
 	position: relative;
-	background-color: black;
-	width: 1362px;
+	background-size: 100%;
+	height: 570px;
+	background-color: #262526;
+	color: white;
 }
 #PORTFOLIO {
+ font-family: "Poiret One";
+	margin:0px;
+	padding-top: 73px;
 	position: relative;
+	background-size: 100%;
+	height: 514px;
 	background-color: black;
-	width: 1362px;
+	color: white;
 }
-#contact {
+#CONTACT {
+	 font-family: "Poiret One";
+	margin:0px;
+	padding-top: 50px;
 	position: relative;
+	background-size: 100%;
+	height: 570px;
+	background-color: #262526;
+	color: white;
+}footer {
+	margin:0px;
+	padding-top: 60px;
+	position: relative;
+	background-size: 100%;
+	height: auto;
 	background-color: black;
-	width: 1362px;
+	color: white;
+}
+}
+
+@media all {
+  h1 {
+    font-size: 20px; /*this will be applied everywhere*/
+  }
+}
+
+@media print {
+  h1 {
+    font-size: 20px;  /*when printing the page*/
+  }
+}
+
+@media screen {
+  h1 {
+    font-size: 20px;  /*when displayed in a device*/
+  }
+}
+@media (max-width:320px) {  /*small mobile*/
+  h4 {
+    background-color: red;
+  }
+}
+@media (min-width:321px) and (max-width:959px) {  /*tablet*/
+  h4 {
+    background-color: green; 
+  }
+}
+@media (min-width:960px) and (max-width:1599px) {  /*desktop*/
+  h4 {
+    background-color: blue;
+  }
+}
+@media (min-width:1600px) {  /*desktop and tv*/
+  h4 {
+    background-color: yellow;
+  }
 }
